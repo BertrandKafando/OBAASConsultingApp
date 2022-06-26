@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import '../widgets/Home/bottomBar.dart';
+
 class SolutionsPage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
@@ -25,6 +27,7 @@ class SolutionsPage extends StatelessWidget{
           ],
         ),
       ),
+      bottomNavigationBar: BotttomBar(),
     );
   }
 

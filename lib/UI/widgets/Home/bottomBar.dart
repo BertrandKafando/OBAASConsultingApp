@@ -28,8 +28,10 @@ class _BotttomBarState extends State<BotttomBar> {
                   icon: Icons.home,
                   selected: _selectedIndex == 0,
                   onPressed: () {
+                    Navigator.pushNamed(context,"/");
                     setState(() {
                       _selectedIndex = 0;
+
                     });
                   }),
               IconBottomBar(
@@ -37,8 +39,10 @@ class _BotttomBarState extends State<BotttomBar> {
                   icon: Icons.design_services,
                   selected: _selectedIndex == 1,
                   onPressed: () {
+                    Navigator.pushNamed(context,"/services");
                     setState(() {
                       _selectedIndex = 1;
+
                     });
                   }),
               IconBottomBar(
@@ -46,6 +50,7 @@ class _BotttomBarState extends State<BotttomBar> {
                   icon: Icons.work,
                   selected: _selectedIndex == 2,
                   onPressed: () {
+                    Navigator.pushNamed(context,"/projets");
                     setState(() {
                       _selectedIndex = 2;
                     });
@@ -55,6 +60,7 @@ class _BotttomBarState extends State<BotttomBar> {
                   icon: Icons.contacts,
                   selected: _selectedIndex == 3,
                   onPressed: () {
+                    Navigator.pushNamed(context,"/contact");
                     setState(() {
                       _selectedIndex = 3;
                     });
