@@ -1,8 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'package:flutter/material.dart';
-
 import '../widgets/Drawer/drawer.dart';
 import '../widgets/Home/appbar.dart';
 
@@ -140,7 +138,7 @@ class TopBar extends StatelessWidget {
 
           Container(
 
-            child:  Expanded(child: Image(image:  AssetImage("images/logo.png"),)),
+            child:  Expanded(child: Image(image:  AssetImage("assets/images/logo.png"),)),
           )
         ],
       ),
@@ -167,7 +165,7 @@ class PromoCard extends StatelessWidget {
           children: [
             Opacity(
               opacity: .5,
-              child: Image(image: AssetImage("images/business.jpg"),fit: BoxFit.cover,),
+              child: Image(image: AssetImage("assets/images/business.jpg"),fit: BoxFit.cover,),
             ),
             const Align(
               alignment: Alignment.topRight,

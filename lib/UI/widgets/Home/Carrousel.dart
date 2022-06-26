@@ -10,13 +10,6 @@ class CustomCarouselFB2 extends StatefulWidget {
 
 class _CustomCarouselFB2State extends State<CustomCarouselFB2> {
 
-  // - - - - - - - - - - - - Instructions - - - - - - - - - - - - - -
-  // 1.Replace cards list with whatever widgets you'd like. 
-  // 2.Change the widgetMargin attribute, to ensure good spacing on all screensize.
-  // 3.If you have a problem with this widget, please contact us at flutterbricks90@gmail.com
-  // Learn to build this widget at https://www.youtube.com/watch?v=dSMw1Nb0QVg!
-  // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-  
   List<Widget> cards = [
     CardFb1(
         text: "Explore",

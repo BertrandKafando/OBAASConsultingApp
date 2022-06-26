@@ -20,6 +20,7 @@ class GradientAppBarFb1 extends StatelessWidget with PreferredSizeWidget {
     const errorColor = Color(0xffEF4444);
 
     return AppBar(
+      centerTitle: true,
       title:
       const Text("OBAAS Consulting", style: TextStyle(color: Colors.white)),
       backgroundColor: primaryColor,
